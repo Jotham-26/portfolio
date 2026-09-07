@@ -2,571 +2,750 @@
 <html lang="fr">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Béké Moyet Jotham Christ-Evodie| Développeur d'Applications</title>
+    <title>Portfolio | Data & AI Developer</title>
 
-    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+          content="Portfolio d'une développeuse spécialisée en Data, Intelligence Artificielle, développement Web et Mobile.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
+
 <body>
 
-    <!--================ NAVBAR =================-->
 
-    <header>
+<!--  NAVIGATION  -->
 
-        <div class="container">
+<header class="navbar">
 
-            <a href="#" class="logo">
+    <div class="container nav-container">
 
-                JOTHAM<span>.</span>
+        <a href="index.html" class="logo">
+            BJ<span>.</span>
+        </a>
 
+
+        <nav id="nav">
+
+            <a href="#about">À propos</a>
+
+            <a href="#skills">Compétences</a>
+
+            <a href="#projects">Projets</a>
+
+            <a href="#journey">Parcours</a>
+
+            <a href="#contact">Contact</a>
+
+            <a href="cv.pdf" class="nav-cv">
+                CV
             </a>
 
-            <nav>
+        </nav>
 
-                <ul>
 
-                    <li><a href="#home">Accueil</a></li>
-                    <li><a href="#about">À propos</a></li>
-                    <li><a href="#skills">Compétences</a></li>
-                    <li><a href="#projects">Projets</a></li>
-                    <li><a href="#parcours">Parcours</a></li>
-                    <li><a href="#contact">Contact</a></li>
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
 
-                </ul>
+    </div>
 
-            </nav>
+</header>
 
-            <div class="menu">
 
-                <i class="fa-solid fa-bars"></i>
+
+<main>
+
+
+<!--  HERO  -->
+
+<section class="hero">
+
+    <div class="container hero-grid">
+
+
+        <div class="hero-content">
+
+            <div class="status">
+                <span></span>
+                Disponible pour de nouveaux projets
+            </div>
+
+
+            <div class="location">
+                Côte d'Ivoire · Abidjan
+            </div>
+
+
+            <h1>
+
+                Je transforme les
+                <em>données</em>
+                en solutions numériques.
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                Développeuse spécialisée en
+                <strong>Data, Intelligence Artificielle,
+                Web et Mobile</strong>, je conçois des
+                solutions utiles en combinant analyse,
+                technologie et créativité.
+
+            </p>
+
+
+            <div class="hero-actions">
+
+                <a href="#projects" class="btn-primary">
+                    Voir mes projets
+                    <span>↗</span>
+                </a>
+
+                <a href="#contact" class="btn-secondary">
+                    Me contacter
+                </a>
+
+            </div>
+
+
+            <div class="hero-tech">
+
+                <span>Python</span>
+                <span>Power BI</span>
+                <span>FastAPI</span>
+                <span>Flutter</span>
 
             </div>
 
         </div>
 
-    </header>
+
+        <!-- VISUEL HERO -->
+
+        <div class="hero-visual">
+
+            <div class="visual-frame">
+
+                <img src="images/ma_photo.jpeg"
+                     alt="Portrait professionnel">
+
+            </div>
+
+
+            <div class="data-decoration">
+
+                <div class="data-line"></div>
+
+                <div class="data-bars">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <small>
+                    DATA / AI
+                </small>
+
+            </div>
+
+
+            <div class="code-decoration">
+                &lt;/&gt;
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
 
-    <!--================ HERO =================-->
+<!--  ABOUT  -->
 
-    <section class="hero" id="home">
+<section class="about" id="about">
 
-        <div class="container hero-content">
+    <div class="container">
 
-            <div class="hero-left">
+        <div class="section-label">
+            01 — À PROPOS
+        </div>
 
-                <span class="badge">
 
-                    Disponible 
+        <div class="about-grid">
 
-                </span>
+            <div>
 
-                <h1>
+                <h2>
+                    À la croisée de la
+                    <span>Data</span> et du
+                    développement.
+                </h2>
 
-                    Développeur d'Applications
+            </div>
 
-                    <br>
 
-                    <span>Data & Intelligence Artificielle</span>
-
-                </h1>
+            <div class="about-text">
 
                 <p>
-
-                    Passionnée par le développement logiciel, les applications intelligentes
-                    et l'analyse des données, je conçois des solutions modernes,
-                    performantes et adaptées aux besoins des utilisateurs.
-
+                    Je m'intéresse à la manière dont la
+                    technologie peut transformer des données
+                    complexes en informations utiles et en
+                    applications concrètes.
                 </p>
 
-                <div class="hero-buttons">
+                <p>
+                    Mon profil combine analyse de données,
+                    intelligence artificielle et développement
+                    d'applications web et mobiles.
+                </p>
 
-                    <a href="#projects" class="btn">
 
-                        Voir mes projets
-
-                    </a>
-
-                    <a href="assets/cv.pdf" class="btn-outline">
-
-                        Télécharger mon CV
-
-                    </a>
-
-                </div>
-
-                <div class="stats">
-
-                    <div>
-
-                        <h2>1+</h2>
-
-                        <span>Projets réalisés</span>
-
-                    </div>
-
-                    <div>
-
-                        <h2>100%</h2>
-
-                        <span>Responsive</span>
-
-                    </div>
-
-                    <div>
-
-                        <h2>Data</h2>
-
-                        <span>IA & Développement</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="hero-right">
-
-                <img src="images/profile.jpeg" alt="Photo">
+                <a href="#contact" class="text-link">
+                    Travaillons ensemble →
+                </a>
 
             </div>
 
         </div>
 
-    </section>
 
+        <div class="about-numbers">
 
+            <div>
+                <strong>01</strong>
+                <span>Data & IA</span>
+            </div>
 
-    <!--================ ABOUT =================-->
+            <div>
+                <strong>01</strong>
+                <span>Web</span>
+            </div>
 
-    <section class="about" id="about">
+            <div>
+                <strong>01</strong>
+                <span>Mobile</span>
+            </div>
 
-        <div class="container">
-
-            <h2 class="section-title">
-
-                À propos
-
-            </h2>
-
-            <div class="about-content">
-
-                <div class="about-text">
-
-                    <h3>
-
-                        Développer des solutions utiles,
-                        modernes et intelligentes.
-
-                    </h3>
-
-                    <p>
-
-                        Je suis étudiante en BTS Informatique Développeur d'Applications.
-                        Je m'intéresse au développement web, aux applications desktop,
-                        aux bases de données ainsi qu'à l'intelligence artificielle.
-
-                    </p>
-
-                    <p>
-
-                        Mon objectif est de devenir ingénieur spécialisé
-                        dans la Data Science et l'IA en développant des
-                        solutions capables d'apporter une réelle valeur
-                        aux entreprises.
-
-                    </p>
-
-                    <div class="about-cards">
-
-                        <div>
-
-                            <i class="fa-solid fa-code"></i>
-
-                            <h4>
-
-                                Développement
-
-                            </h4>
-
-                        </div>
-
-                        <div>
-
-                            <i class="fa-solid fa-database"></i>
-
-                            <h4>
-
-                                Bases de données
-
-                            </h4>
-
-                        </div>
-
-                        <div>
-
-                            <i class="fa-solid fa-brain"></i>
-
-                            <h4>
-
-                                Intelligence Artificielle
-
-                            </h4>
-
-                        </div>
-
-                        <div>
-
-                            <i class="fa-solid fa-chart-column"></i>
-
-                            <h4>
-
-                                Data Analyse
-
-                            </h4>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+            <div>
+                <strong>01</strong>
+                <span>Automation</span>
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
 
-    <!--================ SKILLS =================-->
+<!--  SKILLS  -->
 
-    <section class="skills" id="skills">
+<section class="skills" id="skills">
 
-        <div class="container">
+    <div class="container">
 
-            <h2 class="section-title">
-
-                Compétences
-
-            </h2>
-
-            <div class="skills-grid">
-
-                <div class="skill-box">
-
-                    <i class="fa-solid fa-laptop-code"></i>
-
-                    <h3>
-
-                        Développement
-
-                    </h3>
-
-                    <ul>
-
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
-                        <li>Python</li>
-                        <li>Flutter</li>
-
-                    </ul>
-
-                </div>
-
-                <div class="skill-box">
-
-                    <i class="fa-solid fa-database"></i>
-
-                    <h3>
-
-                        Bases de données
-
-                    </h3>
-
-                    <ul>
-
-                        <li>MySQL</li>
-                        <li>SQLite</li>
-                        <li>Google Sheets API</li>
-
-                    </ul>
-
-                </div>
-
-                <div class="skill-box">
-
-                    <i class="fa-solid fa-brain"></i>
-
-                    <h3>
-
-                        Data & IA
-
-                    </h3>
-
-                    <ul>
-
-                        <li>Pandas</li>
-                        <li>Power BI</li>
-                        <li>DeepSeek API</li>
-                        <li>n8n</li>
-
-                    </ul>
-
-                </div>
-
-                <div class="skill-box">
-
-                    <i class="fa-solid fa-screwdriver-wrench"></i>
-
-                    <h3>
-
-                        Outils
-
-                    </h3>
-
-                    <ul>
-
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>VS Code</li>
-                        <li>Figma</li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
+        <div class="section-label">
+            02 — COMPÉTENCES
         </div>
 
-    </section>
 
-
-
-    <!--================ PROJECTS =================-->
-
-    <section class="projects" id="projects">
-
-        <div class="container">
-
-            <h2 class="section-title">
-
-                Mes projets
-
-            </h2>
-
-            <div class="project-grid">
-
-                
-
-                <div class="project-card">
-
-                    <img src="images/powerbi.png">
-
-                    <div class="content">
-
-                        <h3>
-
-                            Dashboard Power BI
-
-                        </h3>
-
-                        <p>
-
-                            Tableau de bord interactif dédié à l'analyse de
-                            données internationales.
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-    <!--================ PARCOURS =================-->
-
-    <section class="timeline" id="parcours">
-
-        <div class="container">
-
-            <h2 class="section-title">
-
-                Mon parcours
-
-            </h2>
-
-            <div class="timeline-content">
-
-                <div class="timeline-item">
-
-
-                    <h3>
-
-                        BTS Informatique Développeur d'Applications
-
-                    </h3>
-
-                    <span>
-
-                        2024 - 2026
-
-                    </span>
-
-                    <p>
-
-                        Développement web, programmation,
-                        bases de données et génie logiciel.
-
-                    </p>
-
-                </div>
-
-                <div class="timeline-item">
-                     <h3>
-
-                        Stagaire Développeur Data IA
-
-                    </h3>
-
-                    <span>
-
-                        2026
-
-                    </span>
-
-                    <p>
-
-                        Développement web, Développement web,
-                        bases de données et Analys de données.
-
-                    </p>
-
-                    <h3>
-
-                        Stagaire développeur d'applications
-
-                    </h3>
-
-                    <span>
-
-                        Septembre 2025-Février 2026
-
-                    </span>
-
-                    <p>
-
-                        Développement d'applications et participation
-                        à des projets numériques, à la direction Géneral des Ecoles Méthodiste .
-
-                    </p>
-
-                
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-    <!--================ CONTACT =================-->
-
-    <section class="contact" id="contact">
-
-        <div class="container">
-
-            <h2 class="section-title">
-
-                Contact
-
-            </h2>
-
-            <form>
-
-                <input type="text" placeholder="Nom">
-
-                <input type="email" placeholder="Adresse email">
-
-                <textarea rows="6"
-                    placeholder="Votre message"></textarea>
-
-                <button>
-
-                    Envoyer
-
-                </button>
-
-            </form>
-
-        </div>
-
-    </section>
-
-
-
-    <!--================ FOOTER =================-->
-
-    <footer>
-
-        <div class="container">
+        <div class="section-heading">
 
             <h2>
-
-                Béké Jotham
-
+                Un profil
+                <span>multidisciplinaire.</span>
             </h2>
 
             <p>
-
-                Développeur d'Applications | Data | Intelligence Artificielle
-
-            </p>
-
-            <div class="socials">
-
-                <a href="#"><i class="fab fa-github"></i></a>
-
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-
-                <a href="#"><i class="fab fa-facebook"></i></a>
-
-            </div>
-
-            <p>
-
-                © 2026 Tous droits réservés.
-
+                Des technologies choisies selon le problème
+                à résoudre, plutôt qu'une accumulation d'outils.
             </p>
 
         </div>
 
-    </footer>
+
+        <div class="skills-list">
+
+
+            <div class="skill-row">
+
+                <div class="skill-title">
+                    <span>01</span>
+                    DATA & IA
+                </div>
+
+                <div class="skill-tags">
+
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Power BI</span>
+                    <span>SQL</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-row">
+
+                <div class="skill-title">
+                    <span>02</span>
+                    DEVELOPMENT
+                </div>
+
+                <div class="skill-tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>PHP</span>
+                    <span>FastAPI</span>
+                    <span>Flutter</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-row">
+
+                <div class="skill-title">
+                    <span>03</span>
+                    AI & AUTOMATION
+                </div>
+
+                <div class="skill-tags">
+
+                    <span>LLM</span>
+                    <span>Ollama</span>
+                    <span>n8n</span>
+                    <span>AI Agents</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-row">
+
+                <div class="skill-title">
+                    <span>04</span>
+                    TOOLS
+                </div>
+
+                <div class="skill-tags">
+
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                    <span>Jupyter</span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!--  PROJECTS  -->
+
+<section class="projects" id="projects">
+
+    <div class="container">
+
+        <div class="projects-header">
+            <span class="section-label">MON TRAVAIL</span>
+
+            <h2 class="section-title">
+                Quelques projets
+            </h2>
+
+            <p>
+                Une sélection de projets réalisés autour de la Data,
+                de l'IA et du développement d'applications.
+            </p>
+        </div>
+
+
+        <div class="project-grid">
+
+
+            <!-- ATTRITION -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img 
+                        src="images/attrition.png"
+                        alt="Dashboard RH - Analyse de l'attrition"
+                    >
+
+                    <span class="project-category">
+                        DATA · POWER BI
+                    </span>
+
+                </div>
+
+                <div class="content">
+
+                    <span class="project-year">2026</span>
+
+                    <h3>
+                        Analyse de l'attrition RH
+                    </h3>
+
+                    <p>
+                        Analyse des départs des employés et des facteurs
+                        associés à l'attrition à l'aide de Power BI.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Power BI</span>
+                        <span>Data Analysis</span>
+                        <span>RH</span>
+                    </div>
+
+                    <a href="projets/attrition.html" class="project-link">
+                        Voir le projet →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CHAT & GO -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img 
+                        src="images/chaGo.png"
+                        alt="Application Chat&Go"
+                    >
+
+                    <span class="project-category">
+                        MOBILE · IA
+                    </span>
+
+                </div>
+
+                <div class="content">
+
+                    <span class="project-year">2026</span>
+
+                    <h3>
+                        Chat&Go
+                    </h3>
+
+                    <p>
+                        Application mobile intégrant un assistant
+                        conversationnel pour faciliter la recherche de commerces.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>FastAPI</span>
+                        <span>IA</span>
+                    </div>
+
+                    <a href="projets/chatGo.html" class="project-link">
+                        Voir le projet →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- ALCOOL -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img 
+                        src="images/powerbi.png"
+                        alt="Analyse des liens entre consommation d'alcool et homicides"
+                    >
+
+                    <span class="project-category">
+                        DATA · POWER BI
+                    </span>
+
+                </div>
+
+                <div class="content">
+
+                    <span class="project-year">2026</span>
+
+                    <h3>
+                        Alcool & Homicides
+                    </h3>
+
+                    <p>
+                        Exploration et visualisation des relations entre
+                        consommation d'alcool et taux d'homicides.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Power BI</span>
+                        <span>Data Analysis</span>
+                    </div>
+
+                    <a href="projets/alcool.html" class="project-link">
+                        Voir le projet →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <div class="projects-footer">
+
+            <a href="projets.html" class="btn-outline">
+                Voir tous les projets
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!--  JOURNEY  -->
+
+<section class="journey" id="journey">
+
+    <div class="container">
+
+        <div class="section-label">
+            04 — PARCOURS
+        </div>
+
+
+        <div class="section-heading">
+
+            <h2>
+                Mon
+                <span>parcours.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+            <div class="timeline-item">
+
+                <span class="timeline-date">
+                    2025 — Aujourd'hui
+                </span>
+
+                <h3>
+                    Formation Data & IA
+                </h3>
+
+                <p>
+                    Formation orientée Data Science,
+                    Intelligence Artificielle,
+                    développement et automatisation.
+                </p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <span class="timeline-date">
+                    Sept. 2025 — Fév. 2026
+                </span>
+
+                <h3>
+                    Stage — Développement d'application
+                </h3>
+
+                <p>
+                    Participation à l'analyse des besoins,
+                    à la conception et au développement
+                    d'une application web de gestion
+                    des demandes de service.
+                </p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <span class="timeline-date">
+                    2023 -2025
+                </span>
+
+                <h3>
+                    BTS Informatque Développeur d'Application 
+                </h3>
+
+                <p>
+                    Acquisition des basse en developpement d'application.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!--  CONTACT  -->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <div>
+
+                <div class="section-label">
+                    05 — CONTACT
+                </div>
+
+                <h2>
+                    Construisons quelque chose
+                    <span>d'utile.</span>
+                </h2>
+
+                <p>
+                    Vous avez une idée, un projet ou simplement
+                    envie d'échanger ?
+                </p>
+
+            </div>
+
+
+            <div class="contact-links">
+
+                <a href="mailto:votreemail@gmail.com">
+                    jothambeke@gmail.com
+                </a>
+
+                <a href="#">
+                    LinkedIn ↗
+                </a>
+
+                <a href="https://github.com/Jotham-26">
+                    GitHub ↗
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <form class="contact-form">
+
+            <input
+                type="text"
+                placeholder="Votre nom"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Votre email"
+                required
+            >
+
+            <textarea
+                placeholder="Votre message"
+                rows="5"
+                required>
+            </textarea>
+
+            <button type="submit">
+                Envoyer le message →
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!--  FOOTER  -->
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <strong>
+                BJ.
+            </strong>
+
+            <p>
+                Data & AI Developer · Web & Mobile Developer
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <p>
+                © 2026 — Tous droits réservés.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
 
 <script src="script.js"></script>
 

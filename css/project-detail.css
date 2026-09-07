@@ -1,0 +1,291 @@
+/* PROJECT DETAIL PAGES */
+
+.project-detail{
+    padding-top:120px;
+    background:var(--light);
+}
+
+
+/* HERO */
+
+.project-hero{
+    padding:60px 0 80px;
+    
+}
+
+
+.project-hero-grid{
+    display:grid;
+    grid-template-columns:1fr 1.2fr;
+    align-items:center;
+    gap:60px;
+}
+
+
+.project-label{
+    display:inline-block;
+    color:var(--primary);
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:1px;
+    margin-bottom:15px;
+}
+
+
+.project-hero h1{
+    font-size:52px;
+    line-height:1.1;
+    color:var(--secondary);
+    margin-bottom:20px;
+}
+
+
+.project-hero p{
+    max-width:600px;
+    font-size:17px;
+}
+
+
+.project-hero-image img{
+    width:100%;
+    border-radius:12px;
+    border:1px solid var(--border);
+}
+
+
+/* TECHNOLOGIES */
+
+.project-tech{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:25px 0;
+}
+
+
+.project-tech span{
+    padding:7px 12px;
+    background:white;
+    border:1px solid var(--border);
+    border-radius:6px;
+    font-size:13px;
+}
+
+
+/* BUTTONS */
+
+.project-actions{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+
+/* SECTION */
+
+.project-section{
+    padding:80px 0;
+}
+
+
+.project-section:nth-child(even){
+    background:white;
+}
+
+
+.project-section-title{
+    max-width:750px;
+    margin-bottom:40px;
+}
+
+
+.project-section-title span{
+    color:var(--primary);
+    font-size:13px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+
+.project-section-title h2{
+    font-size:35px;
+    color:var(--secondary);
+    margin-top:8px;
+}
+
+
+/* INFORMATION GRID */
+
+.project-info-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+
+.project-info{
+    padding:25px;
+    background:white;
+    border:1px solid var(--border);
+    border-radius:10px;
+}
+
+
+.project-info h3{
+    color:var(--secondary);
+    margin-bottom:10px;
+    font-size:19px;
+}
+
+
+/* DASHBOARD */
+
+.dashboard-container{
+    max-width:1100px;
+    margin:auto;
+}
+
+
+.dashboard-container img{
+    display:block;
+    width:100%;
+    border:1px solid var(--border);
+    border-radius:10px;
+}
+
+
+.image-caption{
+    text-align:center;
+    font-size:13px;
+    color:#6b7280;
+    margin-top:12px;
+}
+
+
+/* ANALYSIS */
+
+.analysis-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+
+.analysis-item{
+    padding:25px;
+    background:var(--light);
+    border-left:4px solid var(--primary);
+}
+
+
+.analysis-item h3{
+    color:var(--secondary);
+    margin-bottom:10px;
+}
+
+
+.analysis-item p{
+    font-size:15px;
+}
+
+
+/* INSIGHTS */
+
+.insights{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+
+.insight{
+    padding:25px;
+    background:white;
+    border:1px solid var(--border);
+    border-radius:10px;
+}
+
+
+.insight h3{
+    color:var(--secondary);
+    margin-bottom:10px;
+}
+
+
+/* CONCLUSION */
+
+.project-conclusion{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+}
+
+
+.project-conclusion h2{
+    color:var(--secondary);
+    margin-bottom:20px;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+    .project-hero-grid{
+        grid-template-columns:1fr;
+    }
+
+    .project-hero h1{
+        font-size:40px;
+    }
+
+    .analysis-grid,
+    .project-info-grid{
+        grid-template-columns:1fr;
+    }
+
+    .insights{
+        grid-template-columns:1fr;
+    }
+
+}
+
+
+@media(max-width:700px){
+
+    .project-detail{
+        padding-top:90px;
+    }
+
+    .project-hero{
+        padding:40px 0 60px;
+    }
+
+    .project-hero h1{
+        font-size:34px;
+    }
+
+    .project-section{
+        padding:60px 0;
+    }
+
+    .project-section-title h2{
+        font-size:28px;
+    }
+
+}
+/* IMAGE CHAT&GO */
+.chatgo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatgo-image img {
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+}
